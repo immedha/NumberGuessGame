@@ -1,8 +1,4 @@
 /*
- * Medha Gupta
- * May 18, 2023
- * CSE 154 AB: Allan Tran, Elizabeth Xiong
- *
  * This is the app.js page that stores data for the "Guess The Number" game. It stores
  * individual game data, including the actual number and the user's guesses. It also evaluates
  * whether given guesses are correct.
