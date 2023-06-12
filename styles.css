@@ -1,0 +1,99 @@
+/*
+  Medha Gupta
+  May 18, 2023
+  CSE 154 AB: Allan Tran, Elizabeth Xiong
+
+  This is the styles.css stylesheet that styles the index.html page.
+  Its has a green and purple cartoon-like theme.
+*/
+
+body {
+  background-color: #50e7c2;
+}
+
+body, h1 {
+  margin: 0px;
+}
+
+body, button {
+  font-family: 'Karla', sans-serif;
+}
+
+main {
+  flex-direction: column;
+  align-items: center;
+}
+
+main, section {
+  display: flex;
+}
+
+header {
+  background-color: #993399;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  padding: 10px;
+}
+
+h1 {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 20pt;
+}
+
+section {
+  flex-direction: row;
+  justify-content: center;
+}
+
+main > button {
+  height: 40px;
+  margin: 30px;
+}
+
+section > button {
+  width: 150px;
+  height: 60px;
+}
+
+input {
+  width: 145px;
+  height: 53px;
+}
+
+section > button, input {
+  color: black;
+  margin-right: 30px;
+}
+
+#board {
+  height: 200px;
+}
+
+main > button, #board {
+  width: 500px;
+}
+
+button, #board > p, input {
+  font-size: 25px;
+}
+
+h2, #board > p, section > button, input {
+  text-align: center;
+}
+
+#board, button, input {
+  border: solid black 3px;
+  box-shadow: 5px 10px;
+  border-radius: 10px;
+  background-color: white;
+}
+
+button:active {
+  background-color: #82FDC4;
+}
+
+input:focus {
+  outline: none;
+}
